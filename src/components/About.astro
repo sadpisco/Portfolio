@@ -1,0 +1,24 @@
+---
+import {basics} from '@cv';
+const { summary } = basics;
+---
+
+<section class = 'holeContainer'>
+    <h1>About</h1>
+    <p>{summary}</p>
+
+</section>
+
+<style>
+    .holeContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+    p{
+        text-align: justify;
+    }
+
+</style>

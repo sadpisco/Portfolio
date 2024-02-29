@@ -1,15 +1,41 @@
 ---
 import { basics } from '@cv';
-const { name, labelOne, labelTwo, image, email, phone, url, summary, location } = basics;
+const { name, labelOne, labelTwo, labelThree, image, email, phone, url, summary, location } = basics;
 const { address, postalCode, city, countryCode, region } = location;
 ---
-<section>
+<section class = 'holeContainer'>
     <div class = 'container'>
         <div class = 'info'>
-            <h1>{name}</h1>
-            <h3>{labelOne}</h3>
-            <h3>{labelTwo}</h3>
+            <h1 class = 'name'>{name}</h1>
+            <p>{labelOne}</p>
+            <p>{labelTwo}</p>
+            <p>{city}, {countryCode}</p>
         </div>
+        <img src = {image} alt="ImagenPersonal" height="200" class = 'img'/>
 
     </div>
 </section>
+
+<style>
+    .holeContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        
+    }
+    .img{
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+</style>

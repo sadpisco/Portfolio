@@ -1,0 +1,41 @@
+---
+import { work } from '@cv';
+---
+<section class = 'section'>
+    <h1>Experience</h1>
+    <ul>
+        {work.map(({name, position, startDate, endDate, summary, location}) =>{
+            return(
+                <li class = 'li'>
+                    <div class = 'header'>
+                        <h4>{position} - {name}</h4>
+                        <p>{startDate} - {endDate}</p>
+                    </div>
+                    <p class = 'location'>{location}</p>
+                    <p>{summary}</p>
+                </li>
+            )
+        })}
+    </ul>
+
+</section>
+<style>
+    .section{
+        width: 60%;
+        margin-top: 4vh;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .li{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .location{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+</style>

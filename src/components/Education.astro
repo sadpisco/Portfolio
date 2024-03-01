@@ -6,14 +6,14 @@ import { education, certificates } from '@cv';
     <h1 class = 'title'>Education</h1>
     <ul>
     {education.map(({institution, area, title, startDate, endDate, summary, courses}) => {
-        return(<li>
+        return(<li class = 'unity'>
             <h4>{institution}</h4>
             <div class = 'general'>
             <p class = 'undername'>{area} - {title}</p>
             <p class = 'undername'>{startDate} - {endDate}</p>
             </div>
             <p class = 'summary'>{summary}</p>
-            <h4>Knowledge</h4>
+            <h4>Knowledge on:</h4>
             <div class = 'knowledgeDiv'>
             {courses.map((element) =><span class = 'course'>{element}</span>)}
         </div>
@@ -67,5 +67,10 @@ import { education, certificates } from '@cv';
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .unity{
+margin-top: 2vh;
+margin-bottom: 3vh;
+
     }
 </style>

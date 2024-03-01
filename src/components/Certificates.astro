@@ -1,0 +1,77 @@
+---
+import { certificates } from '@cv'
+---
+<section class = 'section'>
+    <h1 class = 'title'>Certificates</h1>
+    <ul class = 'ul'>
+        {certificates.map(({date, name, issuer, url}) =>{
+            return(
+                <li class = 'li'>
+                    <div class = 'info'>
+                    <h3>{name}</h3>
+                    <h4 class = 'issuer'>{issuer}</h4>
+                    <p>{date}</p>
+                </div>
+                    <a href = {url} class = 'a'><p style = {{color: 'white', fontWeight:'400',}}>Certificate Link</p></a>
+                </li>
+            )
+        })}
+    </ul>
+
+</section>
+
+<style>
+    .section{
+        width: 60%;
+    }
+    .title{
+        width: 100%;
+        padding-bottom: 2vh;
+    }
+    .ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        gap: 1rem;
+    }
+    .li{
+        border-radius: 10px;
+        /* border: solid 1px; */
+        box-shadow: 0px 0px 5px black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2vh;
+        text-align: center;
+        height: 180px;
+    }
+    .li:hover{
+        background-color: rgba(234, 234, 234, 0.79);
+        border-color: rgb(234, 234, 234);
+        box-shadow: 0px 0px 0px black;
+        transition: 0.1s;
+        
+    }
+    .a{
+        background-color: rgb(101, 101, 101);
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .a:hover{
+        background-color: rgb(30, 30, 30);
+        transition: 0.3s;
+        border-color: rgb(234, 234, 234);
+        box-shadow: 0px 0px 5px black;
+
+    }
+    .issuer{
+        font-weight: 500;
+    }
+
+
+</style>
+

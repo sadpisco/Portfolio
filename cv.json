@@ -36,24 +36,24 @@
     "work": [{
       "name": "Turo",
       "position": "Billing Agent",
-      "startDate": "2022-06-04",
-      "endDate": "2023-09-05",
+      "startDate": "2022/06/04",
+      "endDate": "2023/09/05",
       "summary": "Customer relationship management, after-sales services, coordination of business services and billing and sales of external clients.",
       "location": "Trujillo, Peru"
     },
     {
         "name": "Delaware North",
         "position": "Junior Logistics Coordinator",
-        "startDate": "2021-12-08",
-        "endDate": "2022-04-05",
+        "startDate": "2021/12/08",
+        "endDate": "2022/04/05",
         "summary": "In charge of receiving supply orders, organizing warehouse inventory, managing internal logistics of the stadium, among others.",
         "location": "Boston, MA, USA"
       },
       {
         "name": "Delaware North",
         "position": "Prep Cook",
-        "startDate": "2019-12-08",
-        "endDate": "2020-04-21",
+        "startDate": "2019/12/08",
+        "endDate": "2020/04/21",
         "summary": "Management and preparation of kitchen supplies to supply different points of sale within the TD Garden stadium.",
         "location": "Boston, MA, USA"
       }
@@ -62,8 +62,9 @@
       "institution": "Henry Bootcamp",
       "area": "Software Development",
       "title": "FullStack Developer",
-      "startDate": "2023-11-15",
-      "endDate": "2024-02-15",
+      "startDate": "2023/11/15",
+      "endDate": "2024/02/15",
+      "summary": "I'm a Full Stack Web Developer from Henry BootCamp and Bachelor's in Business Engineering from Peruvian Private Northern University (UPN). I have experience developing web applications that are responsive and scalable. My ability of understanding and speaking English has allowed me to improve my skills on teamwork, also, my software developing skills allow my applications to support business processes with ease. I am also a very proactive person who's always taking new goals in order to improve my capabilities as much as I can, as an individual and as a group member. I have several projects where I've worked in UX / UI design, front-End & back-End. Please feel free to send me an email so we can start working on your next project.",
       "courses": [
         "SQL",
         "JavaScript",
@@ -81,15 +82,18 @@
         "institution": "Private Northern University",
         "area": "Business",
         "title": "Business Engineering",
-        "startDate": "2016-03-05",
-        "endDate": "2021-12-15",
+        "startDate": "2016/03/05",
+        "endDate": "2021/12/15",
+        "summary": "Bachelor at Business School. Business Engineer title is currently in process. Proficient knowledge on business management areas and workflows. Experience creating and developing supply chains, logistics procedures, inventory management, and human resources management & recruiting. Specialized on process management and business cases problem solving.",
         "courses": [
-          "Supply Chain Management",
+          "Supply Chain",
           "Project Management",
-          "Business Process Management",
-          "Recruiting Procesess",
+          "Business Proceses",
+          "Recruiting",
           "Internal and External Logistics",
-          "Business TI Infrastructures"
+          "Business TI Infrastructures",
+          "Customer Relationship Management",
+          "Data Analitics"
         ]
       }],
     "certificates": [{

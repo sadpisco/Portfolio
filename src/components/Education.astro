@@ -3,22 +3,69 @@ import { education, certificates } from '@cv';
 ---
 
 <section class = 'container'>
-    <h1>Education</h1>
-    {education.map((element) => {
-        <div>
-            <p>{element.institution}</p>
-            <p>{element.area}</p>
-            <p>{element.title}</p>
-            <p>{element.startDate} - {element.endDate}</p>
-            <p>Courses</p>
-            {element.courses.map((element) => <p>{element}</p>)}
+    <h1 class = 'title'>Education</h1>
+    <ul>
+    {education.map(({institution, area, title, startDate, endDate, summary, courses}) => {
+        return(<li>
+            <h4>{institution}</h4>
+            <div class = 'general'>
+            <p class = 'undername'>{area} - {title}</p>
+            <p class = 'undername'>{startDate} - {endDate}</p>
+            </div>
+            <p class = 'summary'>{summary}</p>
+            <h4>Knowledge</h4>
+            <div class = 'knowledgeDiv'>
+            {courses.map((element) =><span class = 'course'>{element}</span>)}
         </div>
+        </li>)
     })}
+    </ul>
 
 </section>
 
 <style>
     .container{
         color: black;
+        width: 60%;
+        padding-top: 2vh;
+		padding-bottom: 1vh;
+    }
+    .title{
+        width: 100%;
+        padding-bottom: 1vh;
+    }
+    .general{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .summary{
+        text-align: justify;
+    }
+    .undername{
+        font-weight: 600;
+        font-size: 13px;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+    }
+    .knowledgeDiv{
+        gap: 3px;
+        width: 100%;
+        display: flex;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+
+    }
+    .course{
+        background-color: rgb(72, 72, 72);
+        border-radius: 5px;
+        padding: 4px;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>

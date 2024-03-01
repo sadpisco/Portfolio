@@ -17,32 +17,36 @@ import GitHub from '../icons/GitHub.astro';
             <p>{city}, {countryCode}</p>
             <div class = 'icons'>
             <a 
-            href = {`mailito:${email}`} 
+            href = {`mail:${email}`} 
             title={`Enviar un correo electrónico a ${name} al correo ${email}`} 
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            class = 'icon'>
             <Mail />
         </a>
             <a 
             href = {`tel:${phone}`} 
             target="_blank"
             rel="noopener noreferrer" 
-            title={`Llamar por teléfono a ${name} al número ${phone}`}>
+            title={`Llamar por teléfono a ${name} al número ${phone}`}
+            class = 'icon'>
             <Phone />
         </a>
             <a 
             href = 'https://www.linkedin.com/in/leonardo-risco/'
-            title={`LinkedIn de ${name}`}>
+            title={`LinkedIn de ${name}`}
+            class = 'icon'>
             <LinkedIn />
         </a>
             <a 
             href = 'https://github.com/sadpisco'
-            title={`GitHub de ${name}`}>
+            title={`GitHub de ${name}`}
+            class = 'icon'>
             <GitHub />
         </a>
         </div>
         </div>
-        <img src = {image} alt="ImagenPersonal" height="150" class = 'img'/>
+        <img src = {image} alt="ImagenPersonal" height="180" class = 'img'/>
 
     </div>
 </section>
@@ -53,8 +57,25 @@ import GitHub from '../icons/GitHub.astro';
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 70%;
+        width: 60%;
 
+    }
+    .icon{
+        color: rgb(122, 122, 122);
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border-style: solid;
+        border-color: rgb(231, 231, 231);
+        border-width: 1px;
+        cursor: pointer;
+    }
+    .icon:hover{
+        color:black;
+        background-color: rgb(223, 223, 223);
+        transition: 0.3s;
     }
     .container{
         display: flex;
@@ -68,8 +89,14 @@ import GitHub from '../icons/GitHub.astro';
     .img{
         border-radius: 5px;
         box-shadow: 0px 0px 10px black;
+        margin-right: 2vh;
     }
     .icons{
         display: flex;
+        gap: 5px;
+        margin-top: 2vh;
+    }
+    .name{
+        font-weight: 500;
     }
 </style>

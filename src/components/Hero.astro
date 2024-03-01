@@ -2,6 +2,11 @@
 import { basics } from '@cv';
 const { name, labelOne, labelTwo, labelThree, image, email, phone, url, summary, location } = basics;
 const { address, postalCode, city, countryCode, region } = location;
+import Mail from '../icons/Mail.astro';
+import Phone from '../icons/Phone.astro';
+import LinkedIn from '../icons/LinkedIn.astro';
+import GitHub from '../icons/GitHub.astro';
+
 ---
 <section class = 'holeContainer'>
     <div class = 'container'>
@@ -10,8 +15,34 @@ const { address, postalCode, city, countryCode, region } = location;
             <p>{labelOne}</p>
             <p>{labelTwo}</p>
             <p>{city}, {countryCode}</p>
+            <div class = 'icons'>
+            <a 
+            href = {`mailito:${email}`} 
+            title={`Enviar un correo electrónico a ${name} al correo ${email}`} 
+            target="_blank"
+            rel="noopener noreferrer">
+            <Mail />
+        </a>
+            <a 
+            href = {`tel:${phone}`} 
+            target="_blank"
+            rel="noopener noreferrer" 
+            title={`Llamar por teléfono a ${name} al número ${phone}`}>
+            <Phone />
+        </a>
+            <a 
+            href = 'https://www.linkedin.com/in/leonardo-risco/'
+            title={`LinkedIn de ${name}`}>
+            <LinkedIn />
+        </a>
+            <a 
+            href = 'https://github.com/sadpisco'
+            title={`GitHub de ${name}`}>
+            <GitHub />
+        </a>
         </div>
-        <img src = {image} alt="ImagenPersonal" height="200" class = 'img'/>
+        </div>
+        <img src = {image} alt="ImagenPersonal" height="150" class = 'img'/>
 
     </div>
 </section>
@@ -37,5 +68,8 @@ const { address, postalCode, city, countryCode, region } = location;
     .img{
         border-radius: 5px;
         box-shadow: 0px 0px 10px black;
+    }
+    .icons{
+        display: flex;
     }
 </style>

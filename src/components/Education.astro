@@ -1,0 +1,24 @@
+---
+import { education, certificates } from '@cv';
+---
+
+<section class = 'container'>
+    <h1>Education</h1>
+    {education.map((element) => {
+        <div>
+            <p>{element.institution}</p>
+            <p>{element.area}</p>
+            <p>{element.title}</p>
+            <p>{element.startDate} - {element.endDate}</p>
+            <p>Courses</p>
+            {element.courses.map((element) => <p>{element}</p>)}
+        </div>
+    })}
+
+</section>
+
+<style>
+    .container{
+        color: black;
+    }
+</style>

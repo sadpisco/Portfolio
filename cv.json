@@ -118,6 +118,7 @@
     "skills": [{
       "name": "Web Developer",
       "level": "Junior",
+      "summary":"Capable of designing, planning and developing web applications that are fast, responsive and with adaptable UX/UI oriented an easy to use customer point of view.",
       "keywords": [
         "SQL",
         "JavaScript",
@@ -140,6 +141,7 @@
     {
         "name": "Business Process Developer",
         "level": "Junior",
+        "summary":"Capable of displaying a proficient support role on business supply chain, business logistics, operative processes like production lines or managing a team in a customer-related enviroment. ",
         "keywords": [
             "Supply Chain Management",
             "Project Management",

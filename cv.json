@@ -176,15 +176,6 @@
       "url": "https://project.com/"
     },
     {
-      "name": "The Rick And Morty Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "image": "",
-      "status":"Finished",
-      "url": "https://rym-front-2vuf.onrender.com"
-    },
-    {
       "name": "Matching",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
@@ -192,6 +183,15 @@
       "image": "",
       "status":"Finished",
       "url": "https://project.com/"
+    },
+    {
+      "name": "The Rick And Morty Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "image": "",
+      "status":"Finished",
+      "url": "https://rym-front-2vuf.onrender.com"
     }
   ]
   }

@@ -39,7 +39,7 @@
       "startDate": "2022/06/04",
       "endDate": "2023/09/05",
       "summary": "Customer relationship management, after-sales services, coordination of business services and billing and sales of external clients.",
-      "location": "Trujillo, Peru"
+      "location": "Trujillo, La Libertad, PE"
     },
     {
         "name": "Delaware North (TD Garden)",
@@ -167,13 +167,31 @@
       "reference": "Reference…"
     }],
     "projects": [{
-      "name": "Project",
+      "name": "TechZone",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
+      "image": "",
+      "status":"On Development",
       "url": "https://project.com/"
-    }]
+    },
+    {
+      "name": "The Rick And Morty Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "image": "",
+      "status":"Finished",
+      "url": "https://rym-front-2vuf.onrender.com"
+    },
+    {
+      "name": "Matching",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "image": "",
+      "status":"Finished",
+      "url": "https://project.com/"
+    }
+  ]
   }

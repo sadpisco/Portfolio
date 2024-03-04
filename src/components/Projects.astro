@@ -1,0 +1,42 @@
+---
+import { projects } from '@cv';
+---
+<section class = 'section'>
+    <h1 class = 'title'>Projects</h1>
+    <ul class = 'ul'>
+        {projects?.map(({name, startDate, endDate, description, image, status, url}) => {
+            return(
+                <li class = 'li'>
+                    <h3>{name}</h3>
+                    <p>{startDate} - {endDate}</p>
+                    <p>{description}</p>
+                    <p>{status}</p>
+                    <img src = {image} alt = {name}/>
+                    <a href = {url}><span>Link to Deploy</span></a>
+                </li>
+            )
+        })}
+    </ul>
+</section>
+<style>
+    .section{
+        width: 60%;
+        height: auto;
+        background-color: rgb(182, 182, 182);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        width: 100%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+</style>

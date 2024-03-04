@@ -10,9 +10,14 @@ import { projects } from '@cv';
                     <h3>{name}</h3>
                     <p>{startDate} - {endDate}</p>
                     <p>{description}</p>
+                    <img src = {image} alt = {name} height="150" class = 'image'/>
+                    { status == 'Finished' && (<div>
+                        <p>{status}</p>
+                        <a href = {url}><span>Link to Deploy</span></a>
+                        </div>)}
+                    { status == 'On Development' && (
                     <p>{status}</p>
-                    <img src = {image} alt = {name}/>
-                    <a href = {url}><span>Link to Deploy</span></a>
+                    )}
                 </li>
             )
         })}
@@ -43,9 +48,16 @@ import { projects } from '@cv';
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 32%;
-        background-color: aqua;
+        padding: 2vh;
+        border-radius: 10px;
+        background-color: rgba(234, 234, 234, 0.79);
+        height: 420px;
+    }
+    .image{
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px black;
     }
 
 </style>

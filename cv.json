@@ -170,8 +170,8 @@
       "name": "TechZone",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
-      "image": "",
+      "description": "eCommerce designed to provide great UX/UI to gaming/tech customers. Inspired by the giants of the industry, this app will allow everyone to supply his tech/gaming components needs.",
+      "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554972/Logo_TechZone_bft4jv.png",
       "status":"On Development",
       "url": "https://project.com/"
     },
@@ -179,8 +179,8 @@
       "name": "Matching",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
-      "image": "",
+      "description": "Sports App that allow you to find team in order to play some sport. Designed for Padel at first, the main purpose on the app is to find teammates who you can settle a match in your area, whether you count on other players or you're on your own.",
+      "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554819/logoPrincipal_k03wos-Banner_wide_bnj0jg.png",
       "status":"Finished",
       "url": "https://project.com/"
     },
@@ -189,7 +189,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
-      "image": "",
+      "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709555849/logorym_yxqjr7.png",
       "status":"Finished",
       "url": "https://rym-front-2vuf.onrender.com"
     }

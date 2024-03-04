@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Leonardo Risco",
-      "labelOne": "Junior Full Stack Developer",
+      "labelOne": "Junior Full Stack Web Developer",
       "labelTwo": "Bachelor in Business",
       "labelThree": "English and Spanish proficient speaker",
       "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1708709078/leo_3_cf9i0b.jpg",
@@ -174,7 +174,12 @@
       "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554972/Logo_TechZone_bft4jv.png",
       "status":"On Development",
       "url": "https://project.com/",
-      "gitHub": "https://github.com/TechZoneDevs/client"
+      "gitHub": "https://github.com/TechZoneDevs/client",
+      "technologies":[
+        "React",
+        "TypeScript",
+        ""
+      ]
     },
     {
       "name": "Matching",

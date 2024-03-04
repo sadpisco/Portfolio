@@ -45,6 +45,12 @@ import GitHub from '../icons/GitHub.astro';
             <GitHub />
         </a>
         </div>
+        <div class = 'toPrint'>
+            <p>{email}</p>
+            <p>{phone}</p>
+            <p>https://www.linkedin.com/in/leonardo-risco/</p>
+
+        </div>
         </div>
         <img src = {image} alt="ImagenPersonal" height="180" class = 'img'/>
 
@@ -57,7 +63,8 @@ import GitHub from '../icons/GitHub.astro';
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 60%;
+        width: 90%;
+        max-width: 1000px;
 
     }
     .icon{
@@ -71,6 +78,23 @@ import GitHub from '../icons/GitHub.astro';
         border-color: rgb(231, 231, 231);
         border-width: 1px;
         cursor: pointer;
+    }
+    .toPrint{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        background-color: aqua;
+        gap: 5px;
+        display: none;
+    }
+    @media print{
+        .toPrint{
+            display: block;
+        }
+        .icons{
+            display: none !important;
+        }
     }
     .icon:hover{
         color:black;

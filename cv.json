@@ -75,7 +75,9 @@
         "TypeScript",
         "CSS",
         "Redux",
-        "Next.Js"
+        "Next.Js",
+        "Sequelize",
+        "MUI"
       ]
     },
     {

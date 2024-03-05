@@ -1,45 +1,79 @@
 ---
-import { projects } from '@cv';
-import GitHub from '../icons/GitHub.astro';
+import { projects } from "@cv";
+import GitHub from "../icons/GitHub.astro";
 ---
-<section class = 'section'>
-    <h1 class = 'title'>Projects</h1>
-    <ul class = 'ul'>
-        {projects?.map(({name, startDate, endDate, description, image, status, url, gitHub}) => {
-            return(
-                <li class = 'li'>
-                    <h3 class = 'name'>{name}</h3>
-                    <p>{startDate} - {endDate}</p>
-                    <p class = 'description'>{description}</p>
-                    <img src = {image} alt = {name} height="150" class = 'image'/>
-                    { status == 'Finished' && (<div class = 'info'>
-                        <p class = "status">{status}</p>
-                        <div class = 'buttons'>
-                        <a 
-            href = {gitHub}
-            title={`GitHub de ${name}`}
-            class = 'icon'>
-            <GitHub />
-        </a>
-                        <a href = {url} class = 'deploy'><span >Deploy</span></a>
-                    </div>
-                        </div>)}
-                    { status == 'On Development' && (
-                    <p class = "status">{status}</p>
-                    <a 
-            href = {gitHub}
-            title={`GitHub de ${name}`}
-            class = 'icon'>
-            <GitHub class = 'svg'/>
-        </a>
-                    )}
-                </li>
+
+<section class="section">
+    <h1 class="title">Projects</h1>
+    <ul class="ul">
+        {
+            projects?.map(
+                ({
+                    name,
+                    startDate,
+                    endDate,
+                    description,
+                    image,
+                    status,
+                    url,
+                    gitHub,
+                }) => {
+                    return (
+                        <li class="li">
+                            <div class="sectionOne">
+                                <div class="titleOne">
+                                    <h3 class="name">{name}</h3>
+                                    <p class="status">{status}</p>
+                                </div>
+                                <p class="date">
+                                    {startDate} - {endDate}
+                                </p>
+                                <p class="description">{description}</p>
+                            </div>
+                            <div class="sectionTwo">
+                                <img
+                                    src={image}
+                                    alt={name}
+                                    height="150"
+                                    class="image"
+                                />
+                                {status == "Finished" && (
+                                    <div class="info">
+                                        <div class="buttons">
+                                            <a
+                                                href={gitHub}
+                                                title={`GitHub de ${name}`}
+                                                class="icon"
+                                            >
+                                                <GitHub />
+                                            </a>
+                                            <a href={url} class="deploy">
+                                                <span>Deploy</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                )}
+                                {status == "On Development" && (
+                                <div class="info">
+                                    <a
+                                        href={gitHub}
+                                        title={`GitHub de ${name}`}
+                                        class="icon"
+                                    >
+                                        <GitHub class="svg" />
+                                    </a>
+                                    </div>
+                                )}
+                            </div>
+                        </li>
+                    );
+                },
             )
-        })}
+        }
     </ul>
 </section>
 <style>
-    .section{
+    .section {
         width: 90%;
         max-width: 1000px;
         height: auto;
@@ -48,70 +82,114 @@ import GitHub from '../icons/GitHub.astro';
         align-items: center;
         justify-content: center;
     }
-    .name{
-        text-align: center;
+    .name {
+        text-align: start;
+        width: auto%;
+        font-size: 15px;
+        font-weight: 500;
     }
-    .title{
+    .titleOne {
+        width: 40%;
+        display: flex;
+        height: auto;
         width: 100%;
+        gap: 1vh;
+    }
+    .date {
+        width: 100%;
+        text-align: start;
+    }
+    .title {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
         padding-top: 2vh;
         padding-bottom: 2vh;
     }
-    .ul{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        
-    }
-    .li{
+    .ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
+        height: auto;
+    }
+    .li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: space-around;
-        width: 32%;
+        width: 100%;
         padding: 1vh;
-        border-radius: 10px;
+        border-radius: 4px;
         background-color: rgba(234, 234, 234, 0.79);
-        min-height: 500px;
+        border: 1px solid black;
         height: auto;
         box-shadow: 0px 0px 5px black;
     }
-    .image{
-        min-width: 100px;
-        height: auto;
-        border-radius: 10px;
+    .sectionOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 55%;
+        min-height: 120px;
+        height: 100%;
+    }
+    .sectionTwo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 45%;
+        min-height: 120px;
+        height: 100%;
+    }
+    .image {
+        min-width: 170px;
+        width: 170px;
+        height: 9px;
+        min-height: 95px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px black;
         margin: 1vh;
         max-height: 100px;
-        box-shadow: 0px 0px 5px black;
     }
-    .description{
+    .description {
         text-align: justify;
-        padding: 10px;
-        
         width: 100%;
-        height: 32%;
+        height: auto;
         font-size: 12px;
         font-weight: 500;
     }
-    .info{
-        
+    .info {
         width: 100%;
         display: flex;
         height: 60px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
-    .buttons{
+    .buttons {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         height: 100%;
     }
-    .deploy{
+    @media print {
+        .buttons {
+            display: none !important;
+        }
+        .icon {
+            display: none !important;
+        }
+        .info{
+            display: none !important;
+        }
+    }
+    .deploy {
         width: 100px;
         display: flex;
         align-items: center;
@@ -123,7 +201,7 @@ import GitHub from '../icons/GitHub.astro';
         background-color: rgb(31, 31, 31);
         border-radius: 6px;
     }
-    .icon{
+    .icon {
         color: rgb(255, 255, 255);
         border-radius: 6px;
         display: flex;
@@ -137,19 +215,25 @@ import GitHub from '../icons/GitHub.astro';
         border-width: 1px;
         cursor: pointer;
     }
-    .icon:hover{
-        color:black;
+    .icon:hover {
+        color: black;
         background-color: rgb(223, 223, 223);
         transition: 0.3s;
     }
-    .deploy:hover{
-        color:black;
+    .deploy:hover {
+        color: black;
         background-color: rgb(223, 223, 223);
         transition: 0.3s;
     }
-    .status{
-        font-size: 14px;
-        font-weight: 600;
+    .status {
+        width: auto;
+        color: black;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 3px;
+        border: 1px solid black;
     }
-
 </style>

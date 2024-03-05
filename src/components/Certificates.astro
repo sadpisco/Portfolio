@@ -7,8 +7,8 @@ import { certificates } from '@cv'
         {certificates.map(({date, name, issuer, url}) =>{
             return(
                 <li class = 'li'>
-                    <div class = 'info'>
-                    <h3>{name}</h3>
+                <div class = 'info'>
+                    <h3 class = 'name'>{name}</h3>
                     <h4 class = 'issuer'>{issuer}</h4>
                     <p>{date}</p>
                 </div>
@@ -24,10 +24,14 @@ import { certificates } from '@cv'
     .section{
         width: 90%;
         max-width: 1000px;
+        height: auto;
     }
     .title{
         width: 100%;
+        padding-top: 2vh;
         padding-bottom: 2vh;
+        font-size: 20px;
+        font-weight: 700;
     }
     .ul{
         display: flex;
@@ -39,7 +43,7 @@ import { certificates } from '@cv'
     .li{
         border-radius: 5px;
         /* border: solid 1px; */
-        background-color: rgba(234, 234, 234, 0.79);
+        background-color: rgba(191, 191, 191, 0.79);
         
         width: 100%;
         display: flex;
@@ -49,6 +53,17 @@ import { certificates } from '@cv'
         padding: 2vh;
         text-align: center;
         height: 180px;
+    }
+    @media print{
+        .li {
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+            height: 150px;
+        }
+        .a{
+            display: none;
+        }
     }
     .li:hover{
         background-color: rgba(255, 255, 255, 0.79);
@@ -71,7 +86,11 @@ import { certificates } from '@cv'
 
     }
     .issuer{
-        font-weight: 500;
+        font-weight: 400;
+    }
+    .name{
+        font-weight: 700;
+        font-size: 17px;
     }
 
 

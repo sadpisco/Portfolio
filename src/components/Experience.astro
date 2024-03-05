@@ -2,13 +2,13 @@
 import { work } from '@cv';
 ---
 <section class = 'section'>
-    <h1>Experience</h1>
+    <h1 class = 'title'>Experience</h1>
     <ul>
         {work.map(({name, position, startDate, endDate, summary, location}) =>{
             return(
                 <li class = 'li'>
                     <div class = 'header'>
-                        <h4>{position} - {name}</h4>
+                        <h4 class = 'name'>{position} - {name}</h4>
                         <p>{startDate} - {endDate}</p>
                     </div>
                     <p class = 'location'>{location}</p>
@@ -25,6 +25,15 @@ import { work } from '@cv';
         max-width: 1000px;
         margin-top: 4vh;
     }
+    .title{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .name{
+        font-weight: 500;
+        font-size: 15px;
+    }
     .header {
         display: flex;
         align-items: center;
@@ -35,8 +44,8 @@ import { work } from '@cv';
         margin-bottom: 2vh;
     }
     .location{
-        margin-top: 1vh;
-        margin-bottom: 1vh;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
 </style>

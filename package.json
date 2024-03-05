@@ -12,6 +12,7 @@
   "dependencies": {
     "astro": "^4.4.4",
     "axios": "^1.6.7",
+    "hotkeypad": "^0.1.1",
     "ninja-keys": "^1.2.2"
   }
 }

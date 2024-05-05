@@ -17,7 +17,7 @@ import GitHub from '../icons/GitHub.astro';
             <p>{city}, {countryCode}</p>
             <div class = 'icons'>
             <a 
-            href = {`mail:${email}`} 
+            href="mailto:leo99153@gmail.com"
             title={`Enviar un correo electrónico a ${name} al correo ${email}`} 
             target="_blank"
             rel="noopener noreferrer"
@@ -25,20 +25,22 @@ import GitHub from '../icons/GitHub.astro';
             <Mail />
         </a>
             <a 
-            href = {`tel:${phone}`} 
+            href="tel:(51)(954163059)"
             target="_blank"
             rel="noopener noreferrer" 
             title={`Llamar por teléfono a ${name} al número ${phone}`}
             class = 'icon'>
             <Phone />
         </a>
-            <a 
+            <a
+            target="_blank"
             href = 'https://www.linkedin.com/in/leonardo-risco/'
             title={`LinkedIn de ${name}`}
             class = 'icon'>
             <LinkedIn />
         </a>
-            <a 
+            <a
+            target="_blank"
             href = 'https://github.com/sadpisco'
             title={`GitHub de ${name}`}
             class = 'icon'>

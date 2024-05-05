@@ -179,24 +179,20 @@
     }],
     "projects": [
       {
-        "name": "TechZone",
-        "startDate": "2019/01/01",
-        "endDate": "2021/01/01",
-        "description": "eCommerce designed to provide great UX/UI to gaming/tech customers. Inspired by the giants of the industry, this app will allow everyone to supply his tech/gaming components needs.",
+        "name": "Ecowash",
+        "startDate": "2024/05/04",
+        "endDate": "2024/05/05",
+        "description": "Ecowash is a static web page for a local carwash. They provide cleaning solutions not only for vehicle, for events, houses and buildings aswell. Integrated with Google Maps API and Calendly API aswell to manage the reservations.",
         "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554972/Logo_TechZone_bft4jv.png",
-        "status":"On Development",
-        "url": "https://project.com/",
-        "gitHub": "https://github.com/TechZoneDevs/client",
-        "technologies":[
-          "React",
-          "TypeScript",
-          ""
-        ]
+        "status":"Finished",
+        "url": "https://lavadosecowash.netlify.app/",
+        "gitHub": "https://github.com/sadpisco/EcowashWeb"
+
       },
       {
       "name": "TechZone",
-      "startDate": "2019/01/01",
-      "endDate": "2021/01/01",
+      "startDate": "2024/02/04",
+      "endDate": "Today",
       "description": "eCommerce designed to provide great UX/UI to gaming/tech customers. Inspired by the giants of the industry, this app will allow everyone to supply his tech/gaming components needs.",
       "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554972/Logo_TechZone_bft4jv.png",
       "status":"On Development",

@@ -4,7 +4,7 @@ import GitHub from "../icons/GitHub.astro";
 ---
 
 <section class="section">
-    <h1 class="title">Projects</h1>
+    <h1 class="title">Projects built by myself</h1>
     <ul class="ul">
         {
             projects?.map(
@@ -31,37 +31,41 @@ import GitHub from "../icons/GitHub.astro";
                                 <p class="description">{description}</p>
                             </div>
                             <div class="sectionTwo">
-                                <img
+                                {/* <img
                                     src={image}
                                     alt={name}
                                     height="150"
                                     class="image"
-                                />
+                                /> */}
                                 {status == "Finished" && (
                                     <div class="info">
                                         <div class="buttons">
                                             <a
+                                                target="_blank"
                                                 href={gitHub}
                                                 title={`GitHub de ${name}`}
                                                 class="icon"
                                             >
                                                 <GitHub />
                                             </a>
-                                            <a href={url} class="deploy">
+                                            <a target="_blank"
+                                            href={url} class="deploy">
                                                 <span>Deploy</span>
                                             </a>
                                         </div>
                                     </div>
                                 )}
                                 {status == "On Development" && (
-                                <div class="info">
-                                    <a
-                                        href={gitHub}
-                                        title={`GitHub de ${name}`}
-                                        class="icon"
-                                    >
-                                        <GitHub class="svg" />
-                                    </a>
+                                    <div class="info">
+                                        <a
+                                            
+                                            target="_blank"
+                                            href={gitHub}
+                                            title={`GitHub de ${name}`}
+                                            class="icon"
+                                        >
+                                            <GitHub class="svg" />
+                                        </a>
                                     </div>
                                 )}
                             </div>
@@ -107,24 +111,24 @@ import GitHub from "../icons/GitHub.astro";
         padding-bottom: 2vh;
     }
     .ul {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 49% 49%;
         align-items: center;
         justify-content: center;
         width: 100%;
-        gap: 2rem;
+        gap: 1rem;
         height: auto;
     }
     .li {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        padding: 1vh;
+        min-height: 220px;
+        padding: 2vh;
         border-radius: 4px;
         background-color: rgba(234, 234, 234, 0.79);
-        border: 1px solid black;
         height: auto;
         box-shadow: 0px 0px 5px black;
     }
@@ -132,8 +136,8 @@ import GitHub from "../icons/GitHub.astro";
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        width: 55%;
+        justify-content: center;
+        width: 90%;
         min-height: 120px;
         height: 100%;
     }
@@ -142,9 +146,8 @@ import GitHub from "../icons/GitHub.astro";
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        width: 45%;
-        min-height: 120px;
-        height: 100%;
+        width: 90;
+        height: 20%;
     }
     .image {
         min-width: 170px;
@@ -185,7 +188,7 @@ import GitHub from "../icons/GitHub.astro";
         .icon {
             display: none !important;
         }
-        .info{
+        .info {
             display: none !important;
         }
     }

@@ -8,7 +8,7 @@
       "email": "leo99153@gmail.com",
       "phone": "+51954163059",
       "url": "https://www.linkedin.com/in/leonardo-risco/",
-      "summary": "I'm a Full Stack Web Developer from Henry BootCamps and Bachelor's in Business Engineering from Peruvian Private Northern University (UPN). I have experience developing web applications that are responsive and scalable. Im skilled in frameworks like React for FrontEnd and Express & Nest in BackEnd. I have several projects on my portfolio, where I can show my habilities building responsive web sites. My last project as a freelancer was EcowashWeb, a static site for a carwash local business. I'm a very proactive person, I'm always working on a project and pushing changes to my gitHub.",
+      "summary": "I'm a Full Stack Web Developer from Henry BootCamps and Bachelor's in Business Engineering from Peruvian Private Northern University (UPN). I have experience developing web applications that are responsive and scalable. Im skilled in frameworks like React for FrontEnd and Express & Nest in BackEnd. I've built several projects on my portfolio using React, Express and Nest, where I can show my habilities building responsive web sites and secure backEnd servers. My last project as a freelancer was EcowashWeb, a static site for a carwash local business. I'm a very proactive person, I'm always working on a project and pushing changes to my gitHub.",
       "location": {
         "address": "Victor Larco Herrera",
         "postalCode": "13009",
@@ -182,7 +182,7 @@
         "name": "Ecowash",
         "startDate": "2024/05/04",
         "endDate": "2024/05/05",
-        "description": "Ecowash is a static web page for a local carwash. They provide cleaning solutions not only for vehicle, for events, houses and buildings aswell. Integrated with Google Maps API and Calendly API aswell to manage the reservations.",
+        "description": "Static Page - React.js, GoogleMaps API, Calendly API, TailwindCSS, MUi, Responsive and  Bootrap. Serverless web page for a local Carwash.",
         "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714973818/ecowash_csxpkn.png",
         "status":"Finished",
         "url": "https://lavadosecowash.netlify.app/",
@@ -193,7 +193,7 @@
       "name": "TechZone",
       "startDate": "2024/02/04",
       "endDate": "Today",
-      "description": "eCommerce designed to provide great UX/UI to gaming/tech customers. Inspired by the giants of the industry, this app will allow everyone to supply his tech/gaming components needs.",
+      "description": "eCommerce - Nest, TypeORM and MySQL RestAPi ,JWT Auth, Front with React TypeScript, TailwindCSS, Paypal, Redux, Next.JS, Bootstrap, TailwindCSS and MUI.",
       "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714984028/105shots_so_ngx9qw.png",
       "status":"On Development",
       "url": "https://project.com/",
@@ -208,7 +208,7 @@
       "name": "Matching",
       "startDate": "2019/01/01",
       "endDate": "2021/01/01",
-      "description": "React Sports App that allow you to find team in order to play some sport. Designed for Padel at first, the main purpose on the app is to find teammates who you can settle a match in your area, whether you count on other players or you're on your own.",
+      "description": "Sports App - Express RestAPI, PostgreSQL & Sequelize, FirebaseAuth and MercadoPago integrated. Front with React.js, Redux, Material UI, Bootstrap, TailwindCSS.",
       "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554819/logoPrincipal_k03wos-Banner_wide_bnj0jg.png",
       "status":"Finished",
       "url": "https://project.com/",
@@ -218,11 +218,21 @@
       "name": "The Rick And Morty Project",
       "startDate": "2019/01/01",
       "endDate": "2021/01/01",
-      "description": "Static web application that lets you navigate in the characters, episodes and locations of the series. Powered by The Rick and Morty API.",
+      "description": "Basic CRUD - API Rest with Express, PostgreSQL and Sequelize. Front with React.js, Redux, CSS, Mui.",
       "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714973817/rymresult_l6e6az.png",
       "status":"Finished",
       "url": "https://rym-front-2vuf.onrender.com",
       "gitHub": "https://github.com/sadpisco/RickAndMortyProyect"
+    },
+    {
+      "name": "Basic CRUD",
+      "startDate": "2024/05/05",
+      "endDate": "2024/5/15 - One week",
+      "description": "Express RestAPI with PostgreSQL & Sequelize, React.JS integrated with Redux and JWT Auth, MUi, Bootstrap & TailwindCSS.",
+      "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1716510277/919shots_so_abru0p.png",
+      "status":"Finished",
+      "url": "https://client-haciendola-chi.vercel.app/",
+      "gitHub": "https://github.com/sadpisco/client-haciendola"
     }
   ]
   }

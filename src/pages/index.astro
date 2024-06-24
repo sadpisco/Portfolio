@@ -11,7 +11,9 @@ import Certificates from "../components/Certificates.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import i18next, { t, changeLanguage } from "i18next";
 import SwitchLanguage from "../components/SwitchLanguage.astro";
-const isDeployed = t("isDeployed");
+
+//Setts correct path to toggle the translation correctly;
+const isDeployed = false;
 changeLanguage("en");
 ---
 

@@ -4,12 +4,35 @@ const { isDeployed } = Astro.props;
 const { languagge } = Astro.props;
 
 const resultado = () => {
-    return "http://localhost:4321"
+    let baseURL = null;
+    if(isDeployed){
+        baseURL = "https://leoriscodev.netlify.app/";
+    switch (languagge){
+        case "en":
+            return baseURL + "es";
+        case "es":
+            return baseURL;
+        default:
+        return;
+    };
+
+}else {
+        baseURL = "http://localhost:4321/";
+
+        switch (languagge){
+        case "en":
+            return baseURL + "es";
+        case "es":
+            return baseURL;
+        default:
+        return;
+    }
+    }
 }
 ---
 
 <div class = "switchLanguageContainer">
-    <a class = "switchLanguageAnchor" > 
+    <a class = "switchLanguageAnchor" href = {resultado()}> 
         Change Language
     </a>
 </div>

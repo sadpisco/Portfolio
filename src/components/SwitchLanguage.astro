@@ -3,6 +3,13 @@ import i18next, { t, changeLanguage } from "i18next";
 const { isDeployed } = Astro.props;
 const { languagge } = Astro.props;
 
+const buttonTitle = () => {
+    if (languagge == "en"){
+        return "Traducir al Español"
+    } else if ( languagge == "es"){
+        return "Translate to English"
+    }
+}
 const resultado = () => {
     let baseURL = null;
     if(isDeployed){
@@ -30,9 +37,9 @@ const resultado = () => {
     }
 }
 ---
-
 <div class = "switchLanguageContainer">
-    <a class = "switchLanguageAnchor" href = {resultado()}> 
-        Change Language
-    </a>
+        <a class = "switchLanguageAnchor" href = {resultado()}>
+        {buttonTitle()}
+        </a>
+
 </div>

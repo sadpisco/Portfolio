@@ -1,23 +1,25 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
-import About from "../components/About.astro";
-import Education from "../components/Education.astro";
-import Hero from "../components/Hero.astro";
-import Experience from "../components/Experience.astro";
-import Projects from "../components/Projects.astro";
-import Skills from "../components/Skills.astro";
-import Certificates from "../components/Certificates.astro";
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+import About from "../../components/About.astro";
+import Education from "../../components/Education.astro";
+import Hero from "../../components/Hero.astro";
+import Experience from "../../components/Experience.astro";
+import Projects from "../../components/Projects.astro";
+import Skills from "../../components/Skills.astro";
+import Certificates from "../../components/Certificates.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import i18next, { t, changeLanguage } from "i18next";
-import SwitchLanguage from "../components/SwitchLanguage.astro";
+import SwitchLanguage from "@/components/SwitchLanguage.astro";
 const isDeployed = t("isDeployed");
-changeLanguage("en");
+console.log(isDeployed, "Index ES");
+
+changeLanguage("es");
 ---
 
 <Layout title="Leonardo Risco">
 	<main class = 'main' lang={i18next.language}>
-		<SwitchLanguage isDeployed = {isDeployed} languagge = "en"/>
+		<SwitchLanguage isDeployed = {isDeployed} languagge = "es"/>
 		<Hero />
 		<About />
 		<Skills />

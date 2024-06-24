@@ -234,5 +234,7 @@
       "url": "https://client-haciendola-chi.vercel.app/",
       "gitHub": "https://github.com/sadpisco/client-haciendola"
     }
-  ]
+    
+  ],
+   "isDeployed" : false
   }

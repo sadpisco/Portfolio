@@ -1,0 +1,15 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+const { isDeployed } = Astro.props;
+const { languagge } = Astro.props;
+
+const resultado = () => {
+    return "http://localhost:4321"
+}
+---
+
+<div class = "switchLanguageContainer">
+    <a class = "switchLanguageAnchor" > 
+        Change Language
+    </a>
+</div>

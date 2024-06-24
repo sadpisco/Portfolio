@@ -6,14 +6,17 @@ import Mail from '../icons/Mail.astro';
 import Phone from '../icons/Phone.astro';
 import LinkedIn from '../icons/LinkedIn.astro';
 import GitHub from '../icons/GitHub.astro';
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 ---
-<section class = 'holeContainer'>
+<section class = 'holeContainer' lang= {i18next.language}>
     <div class = 'container'>
         <div class = 'info'>
             <h1 class = 'name'>{name}</h1>
-            <p>{labelOne}</p>
-            <p>{labelTwo}</p>
+            <p>{t("basics.labelOne")}</p>
+            <p>{t("basics.labelTwo")}</p>
+            <p>{t("basics.labelThree")}</p>
             <p>{city}, {countryCode}</p>
             <div class = 'icons'>
             <a 

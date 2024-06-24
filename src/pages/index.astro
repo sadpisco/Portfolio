@@ -9,10 +9,13 @@ import Projects from '../components/Projects.astro';
 import Skills from '../components/Skills.astro';
 import Certificates from '../components/Certificates.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
 ---
 
 <Layout title="Leonardo Risco">
-	<main class = 'main'>
+	<main class = 'main' lang={i18next.language}>
 		<Hero />
 		<About />
 		<Skills />

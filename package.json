@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "astro": "^4.4.4",
+    "astro-i18next": "^1.0.0-beta.21",
     "axios": "^1.6.7",
     "hotkeypad": "^0.1.1",
     "i18next": "^23.11.3",
-    "ninja-keys": "^1.2.2"
+    "ninja-keys": "^1.2.2",
+    "react": "^18.3.1"
   }
 }

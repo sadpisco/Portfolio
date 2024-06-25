@@ -8,7 +8,7 @@
       "email": "leo99153@gmail.com",
       "phone": "+51954163059",
       "url": "https://www.linkedin.com/in/leonardo-risco/",
-      "summary": "I'm a Full Stack Web Developer from Henry BootCamps and Bachelor's in Business Engineering from Peruvian Private Northern University (UPN). I have experience developing web applications that are responsive and scalable. Im skilled in frameworks like React for FrontEnd and Express & Nest in BackEnd. I've built several projects on my portfolio using React, Express and Nest, where I can show my habilities building responsive web sites and secure backEnd servers. My last project as a freelancer was EcowashWeb, a static site for a carwash local business. I'm a very proactive person, I'm always working on a project and pushing changes to my gitHub.",
+      "summary": "Soy Desarrollador Web Full Stack de Henry BootCamps y Bachiller en Ingeniería Empresarial de la Universidad Privada del Norte del Perú (UPN). Tengo experiencia desarrollando BackEnds y FrontEnds seguros y escalables. Tengo un conocimiento alto de frameworks como React, Next, Angular, Express y Nest.js . Poseo varios proyectos personals en portfolio donde demuestro mis habilidades como programador y diseñador de aplicaciones Web. Actualmente me desenvuelvo como Freelancer prestando servicios de desarrollo Web a empresas locales, mi último proyecto fue EcowashWeb, una página estática para un negocio local de lavado de autos. Siempre estoy codeando y commiteando a mi GitHub.",
       "location": {
         "address": "Victor Larco Herrera",
         "postalCode": "13009",
@@ -36,44 +36,44 @@
     "work": [
       {
         "name": "Freelancer",
-        "position": "Web development",
+        "position": "Desarrollo Web",
         "startDate": "2024/03/24",
-        "endDate": "today",
-        "summary": "I'm selling web development services for local businesses of my city, my last client was a local Carwash.",
-        "location": "Remote"
+        "endDate": "Actualidad",
+        "summary": "Página estática integrada con Calendly API para gestión de Citas, portfolio de servicios de lavado.",
+        "location": "Remoto"
       },
       {
       "name": "Turo",
-      "position": "Customer Service Representative",
+      "position": "Agente de Atención al Cliente",
       "startDate": "2022/06/04",
       "endDate": "2023/09/05",
-      "summary": "Customer relationship management, after-sales services, coordination of business services and billing and sales of external clients.",
-      "location": "Remote"
+      "summary": "Atención al cliente en inglés y español, data entry, resolución de quejas, actividades de mentoria de calidad y lider de equipo. Experiencia en CRM's como Kustomer, Zendesk y Okta.",
+      "location": "Remoto"
     },
     {
         "name": "Delaware North (TD Garden)",
-        "position": "Junior Logistics Coordinator",
+        "position": "Operador de Logistica Junior",
         "startDate": "2021/12/08",
         "endDate": "2022/04/05",
-        "summary": "In charge of receiving supply orders, organizing warehouse inventory, managing internal logistics of the stadium (Boston Celtics and Boston Bruins), among others.",
+        "summary": "Encargado de labores de distribución intera-externa, recepción de pedidos y gestion de ordenes de compra. Supervisión de stocks del estadio TD Garden.",
         "location": "Boston, MA, USA"
       },
       {
         "name": "Delaware North (TD Garden)",
-        "position": "Prep Cook",
+        "position": "Cocinero en Línea",
         "startDate": "2019/12/08",
         "endDate": "2020/04/21",
-        "summary": "Management and preparation of kitchen supplies to supply different points of sale within the TD Garden stadium (Boston Celtics and Boston Bruins).",
+        "summary": "Gestión de insumos, preparaciones de comida rápida, labores FIFO, labores de preparación y distribución de productos alimenticios para el estadio TD Garden.",
         "location": "Boston, MA, USA"
       }
 ],
     "education": [{
-      "institution": "Henry FullStack Bootcamp",
-      "area": "Software Development",
-      "title": "FullStack Developer",
+      "institution": "Henry Bootcamps",
+      "area": "Ingeniería de Software",
+      "title": "Desarrollador FullStack",
       "startDate": "2023/11/15",
       "endDate": "2024/02/15",
-      "summary": "Knowledge developing web applications that are responsive and scalable. My english has allowed me to improve my skills, accessing information that its not in spanish, helped me improving my teamwork, also, allow my applications to support business processes with ease. I am a very proactive person who's always taking new goals in order to improve my capabilities. I have some projects where I've worked in UX / UI design, front-End & back-End. Please feel free to check them.",
+      "summary": "Desarrollo de aplicaciones web responsivas y escalables. Desarrollando principalmente en TypeScript y JavaScript, utilizando los frameworks de Express, Nest, React, Next y Angular. Asi mismo tengo experiencia diseñando UX / UI Web en Figma y Webflow.",
       "courses": [
         "SQL",
         "JavaScript",
@@ -90,46 +90,47 @@
       ]
     },
     {
-        "institution": "Private Northern University",
-        "area": "Business",
-        "title": "Business Engineering",
+        "institution": "Universidad Privada del Norte",
+        "area": "Ingenieria",
+        "title": "Ingenieria Empresarial",
         "startDate": "2016/03/05",
         "endDate": "2021/12/15",
-        "summary": "Bachelor at Business School. Business Engineer title is currently in process. Proficient knowledge on business management areas and workflows. Experience creating and developing supply chains, logistics procedures, inventory management, and human resources management & recruiting. Specialized on process management and business cases problem solving.",
+        "summary": "Bachiller en Ingenieria Empresarial. Desarrollandome como analista de procesos. Conocimientos avanzados en áreas de gestión empresarial. Experiencia en creación y desarrollo de cadenas de suministro, procedimientos logísticos, gestión de inventarios, gestión de recursos humanos. Especializado en gestión de procesos (BPM) y resolución de problemas de casos de negocio.",
         "courses": [
-          "Supply Chain",
-          "Project Management",
-          "Business Proceses",
-          "Recruiting",
-          "Internal and External Logistics",
-          "Business IT Infrastructures",
-          "Customer Relationship Management",
+          "Cadena de Suministro",
+          "Gestión de Proyectos",
+          "Gestión Por Procesos BPM",
+          "Gestión de RRHH",
+          "Logística Interna y Externa",
+          "Infraestructuras TI",
+          "Gestión de relaciones con el cliente",
+          "Gestión Comercial",        
           "Data Entry"
         ]
       }],
     "certificates": [{
-      "name": "FullStack Web Developer",
+      "name": "Desarrollador Full Stack",
       "date": "2024-02-15",
       "issuer": "Henry Bootcamp",
       "url": "https://d2rf2c6bvm78n9.cloudfront.net/new-cert?id=0c814ec78e282f45b19fb0adf8f16518f0cae05f945fac3ee48fda9da9323062"
     },
     {
-        "name": "Bachelor in Business",
+        "name": "Bachiller en Ingenería Empresarial",
         "date": "2021-12-29",
         "issuer": "Private University of the North",
         "url": "https://drive.google.com/file/d/1a8N6lrHzeG7VahX8VN5j5Auyd7iCEnQA/view"
       },
       {
-        "name": "English C2 Proficient",
+        "name": "Inglés C2 Proficient",
         "date": "2023-12-05",
         "issuer": "Education First",
         "url": "https://cert.efset.org/aKF8Nu"
       }
 ],
     "skills": [{
-      "name": "FullStack Web Developer",
+      "name": "Desarrollador Full Stack",
       "level": "Junior",
-      "summary":"Capable of designing, planning and developing web applications that are fast, responsive and with adaptable UX/UI oriented an easy to use customer point of view.",
+      "summary":"Capaz de diseñar, planificar y desarrollar aplicaciones web eficientes, responsivas y con una interfaz UX/UI impecable, que soporte procesos de negocio.",
       "keywords": [
         "SQL",
         "JavaScript",
@@ -151,25 +152,26 @@
       ]
     },
     {
-        "name": "Business Process Analist",
+        "name": "Analista de Procesos",
         "level": "Junior",
-        "summary":"Capable of displaying a proficient support role on business supply chain, business logistics, operative processes like production lines or managing a team in a customer-related enviroment. ",
+        "summary":"Capaz de liderar diferentes áreas de gestión de la empresa, como son, logística, suministros, procesos operativos, recursos humanos o legalidad empresarial. Experiencia en marcos de gestión por procesos BPM, gestor de proyectos.",
         "keywords": [
-            "Supply Chain",
-            "Project Management",
-            "Business Process Management",
-            "Recruiting Procesess",
+            "Cadena de Suministro",
+            "Gestión de Proyectos",
+            "Gestión de Procesos BPM",
+            "Reclutador y gestión de RRHH",
+            "Diagramador de procesos Bizagi",
             "Data Entry"
         ]
       }],
     "languages": [{
-      "language": "English",
+      "language": "Inglés",
       "fluency": "Proficient C2",
       "certificates":"https://cert.efset.org/aKF8Nu"
     },
     {
-        "language": "Spaish",
-        "fluency": "Native"
+        "language": "Español",
+        "fluency": "Nativo"
     }
     
 ],
@@ -182,9 +184,9 @@
         "name": "Ecowash",
         "startDate": "2024/05/04",
         "endDate": "2024/05/05",
-        "description": "Static Page - React.js, GoogleMaps API, Calendly API, TailwindCSS, MUi, Responsive and  Bootrap. Serverless web page for a local Carwash.",
+        "description": "Página estática en React.js, integrado con Google Maps API y Calendly API, Tailwind CSS, MUi, Responsive y Bootstrap. Portfolio web para servicios empresariales de negocio de autolavado.",
         "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714973818/ecowash_csxpkn.png",
-        "status":"Finished",
+        "status":"Terminado",
         "url": "https://lavadosecowash.netlify.app/",
         "gitHub": "https://github.com/sadpisco/EcowashWeb"
 
@@ -192,25 +194,20 @@
       {
       "name": "TechZone",
       "startDate": "2024/02/04",
-      "endDate": "Today",
-      "description": "eCommerce - Nest, TypeORM and MySQL RestAPi ,JWT Auth, Front with React TypeScript, TailwindCSS, Paypal, Redux, Next.JS, Bootstrap, TailwindCSS and MUI.",
+      "endDate": "Actualidad",
+      "description": "Tienda Virtual: Nest, TypeORM y MySQL RestAPi, JWT Auth (BackEnd), Front con React Next.JS TypeScript, TailwindCSS, Paypal, Redux, Bootstrap, TailwindCSS y MUI.",
       "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714984028/105shots_so_ngx9qw.png",
-      "status":"On Development",
+      "status":"En desarrollo",
       "url": "https://project.com/",
-      "gitHub": "https://github.com/TechZoneDevs/client",
-      "technologies":[
-        "React",
-        "TypeScript",
-        ""
-      ]
+      "gitHub": "https://github.com/TechZoneDevs/client"
     },
     {
       "name": "Matching",
       "startDate": "2019/01/01",
       "endDate": "2021/01/01",
-      "description": "Sports App - Express RestAPI, PostgreSQL & Sequelize, FirebaseAuth and MercadoPago integrated. Front with React.js, Redux, Material UI, Bootstrap, TailwindCSS.",
+      "description": "Red Social Deportiva: Express RestAPI, PostgreSQL y Sequelize, FirebaseAuth y MercadoPago integrados. Front con React.js, Redux, Material UI, Bootstrap, TailwindCSS. Responsiva y consumiendo microservicios de localización, así como cookies. Gestión de usuario mediante JWT Auth y local storage.",
       "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554819/logoPrincipal_k03wos-Banner_wide_bnj0jg.png",
-      "status":"Finished",
+      "status":"Terminado",
       "url": "https://project.com/",
       "gitHub": "https://github.com/MatchingProyect/Matching-Front"
     },
@@ -218,9 +215,9 @@
       "name": "The Rick And Morty Project",
       "startDate": "2019/01/01",
       "endDate": "2021/01/01",
-      "description": "Basic CRUD - API Rest with Express, PostgreSQL and Sequelize. Front with React.js, Redux, CSS, Mui.",
+      "description": "Rest API construida en Express, Sequelize y PostgreSQL y Cliente con React, Redux, MaterialUI, Tailwind y Bootstrap.",
       "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714973817/rymresult_l6e6az.png",
-      "status":"Finished",
+      "status":"Terminado",
       "url": "https://rym-front-2vuf.onrender.com",
       "gitHub": "https://github.com/sadpisco/RickAndMortyProyect"
     },
@@ -228,12 +225,11 @@
       "name": "Basic CRUD",
       "startDate": "2024/05/05",
       "endDate": "2024/5/15 - One week",
-      "description": "Express RestAPI with PostgreSQL & Sequelize, React.JS integrated with Redux and JWT Auth, MUi, Bootstrap & TailwindCSS.",
+      "description": "CRUD Básico. Express RestAPI con PostgreSQL & Sequelize, React.JS integrado con Redux y autenticación JWT, MUi, Bootstrap & TailwindCSS.",
       "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1716510277/919shots_so_abru0p.png",
-      "status":"Finished",
+      "status":"Terminado",
       "url": "https://client-haciendola-chi.vercel.app/",
       "gitHub": "https://github.com/sadpisco/client-haciendola"
     }
-  ],
-  "isDeployed" : false
+  ]
   }

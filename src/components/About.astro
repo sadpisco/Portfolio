@@ -1,11 +1,12 @@
 ---
 import {basics} from '@cv';
 const { summary } = basics;
+import i18next, { t } from "i18next";
 ---
 
 <section class = 'holeContainer'>
     <h1 class = 'title'>Experience in Tech</h1>
-    <p>{summary}</p>
+    <p>{t("basics.summary")}</p>
 
 </section>
 

@@ -1,27 +1,23 @@
 ---
-import { basics } from '@cv';
-const { name, labelOne, labelTwo, labelThree, image, email, phone, url, summary, location } = basics;
-const { address, postalCode, city, countryCode, region } = location;
 import Mail from '../icons/Mail.astro';
 import Phone from '../icons/Phone.astro';
 import LinkedIn from '../icons/LinkedIn.astro';
 import GitHub from '../icons/GitHub.astro';
 import i18next, { t } from "i18next";
-import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 ---
 <section class = 'holeContainer' lang= {i18next.language}>
     <div class = 'container'>
         <div class = 'info'>
-            <h1 class = 'name'>{name}</h1>
+            <h1 class = 'name'>{t("basics.name")}</h1>
             <p>{t("basics.labelOne")}</p>
             <p>{t("basics.labelTwo")}</p>
             <p>{t("basics.labelThree")}</p>
-            <p>{city}, {countryCode}</p>
+            <p>{t("basics.location.city")} - {t("basics.location.countryCode")}</p>
             <div class = 'icons'>
             <a 
             href="mailto:leo99153@gmail.com"
-            title={`Enviar un correo electrónico a ${name} al correo ${email}`} 
+            title={`Enviar un correo electrónico a ${t("basics.name")} al correo ${t("basics.email")}`} 
             target="_blank"
             rel="noopener noreferrer"
             class = 'icon'>
@@ -31,33 +27,33 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
             href="tel:(51)(954163059)"
             target="_blank"
             rel="noopener noreferrer" 
-            title={`Llamar por teléfono a ${name} al número ${phone}`}
+            title={`Llamar por teléfono a ${t("basics.name")} al número ${t("basics.phone")}`}
             class = 'icon'>
             <Phone />
         </a>
             <a
             target="_blank"
             href = 'https://www.linkedin.com/in/leonardo-risco/'
-            title={`LinkedIn de ${name}`}
+            title={`LinkedIn de ${t("basics.name")}`}
             class = 'icon'>
             <LinkedIn />
         </a>
             <a
             target="_blank"
             href = 'https://github.com/sadpisco'
-            title={`GitHub de ${name}`}
+            title={`GitHub de ${t("basics.name")}`}
             class = 'icon'>
             <GitHub />
         </a>
         </div>
         <div class = 'toPrint'>
-            <p>{email}</p>
-            <p>{phone}</p>
-            <p>https://www.linkedin.com/in/leonardo-risco/</p>
+            <p>{t("basics.email")}</p>
+            <p>{t("basics.phone")}</p>
+            <p>{t("basics.url")}</p>
 
         </div>
         </div>
-        <img src = {image} alt="ImagenPersonal" height="180" class = 'img'/>
+        <img src = {t("basics.image")} alt="ImagenPersonal" height="180" class = 'img'/>
 
     </div>
 </section>

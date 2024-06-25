@@ -2,8 +2,8 @@
 import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types";
-import { basics } from "@cv"
-const { profiles } = basics
+import i18next, { t } from "i18next";
+const perfiles = t("profiles", { returnObjects: true });
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg
@@ -42,7 +42,7 @@ const SOCIAL_ICONS: SocialIcon = {
 `
 }
 
-const profilesInfo = profiles.map(({ network, url }) => {
+const profilesInfo = perfiles.map(({ network, url }) => {
   const icon = SOCIAL_ICONS[network]
   const firstLetter = network[0].toUpperCase()
 

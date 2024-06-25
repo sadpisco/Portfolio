@@ -1,11 +1,13 @@
 ---
 import { education, certificates } from '@cv';
+import i18next, { t } from "i18next";
+const educadas = t("education.education" , { returnObjects: true });
 ---
 
 <section class = 'container'>
-    <h1 class = 'title'>Education</h1>
+    <h1 class = 'title'>{t("education.title")}</h1>
     <ul>
-    {education.map(({institution, area, title, startDate, endDate, summary, courses}) => {
+    {educadas.map(({institution, area, title, startDate, endDate, summary, courses}) => {
         return(<li class = 'unity'>
             <h4 class = 'name'>{institution}</h4>
             <div class = 'general'>
@@ -50,7 +52,7 @@ import { education, certificates } from '@cv';
         text-align: justify;
     }
     .undername{
-        font-weight: 600;
+        font-weight: 400;
         font-size: 13px;
         padding-bottom: 1vh;
         padding-top: 1vh;

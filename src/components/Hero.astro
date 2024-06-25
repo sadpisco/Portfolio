@@ -3,6 +3,7 @@ import Mail from '../icons/Mail.astro';
 import Phone from '../icons/Phone.astro';
 import LinkedIn from '../icons/LinkedIn.astro';
 import GitHub from '../icons/GitHub.astro';
+import Whatsapp from '@/icons/whatsapp.astro';
 import i18next, { t } from "i18next";
 
 ---
@@ -45,6 +46,13 @@ import i18next, { t } from "i18next";
             class = 'icon'>
             <GitHub />
         </a>
+        <a
+            target="_blank"
+            href = 'https://wa.me/51954163059'
+            title={`WhatsApp de ${t("basics.name")}`}
+            class = 'icon'>
+            <Whatsapp />
+        </a>
         </div>
         <div class = 'toPrint'>
             <p>{t("basics.email")}</p>
@@ -69,15 +77,16 @@ import i18next, { t } from "i18next";
 
     }
     .icon{
-        color: rgb(122, 122, 122);
+        color: rgb(0, 0, 0);
         border-radius: 3px;
         display: flex;
+        width: auto;
         align-items: center;
         justify-content: center;
-        padding: 5px;
+        padding: 6px;
         border-style: solid;
         border-color: rgb(231, 231, 231);
-        border-width: 1px;
+        border-width: 1.5px;
         cursor: pointer;
     }
     .toPrint{

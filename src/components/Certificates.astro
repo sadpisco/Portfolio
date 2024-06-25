@@ -1,10 +1,12 @@
 ---
 import { certificates } from '@cv'
+import i18next, { t } from "i18next";
+const certificados = t("certificates.certificates", { returnObjects: true });
 ---
 <section class = 'section'>
-    <h1 class = 'title'>Certificates</h1>
+    <h1 class = 'title'>{t("certificates.title")}</h1>
     <ul class = 'ul'>
-        {certificates.map(({date, name, issuer, url}) =>{
+        {certificados.map(({date, name, issuer, url}) =>{
             return(
                 <li class = 'li'>
                 <div class = 'info'>

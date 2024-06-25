@@ -116,7 +116,7 @@
         ]
       }]},
     "certificates": {
-      "title" : "Certificates",
+      "title" : "Certificados",
       "certificates": [{
       "name": "Desarrollador Full Stack",
       "date": "2024-02-15",

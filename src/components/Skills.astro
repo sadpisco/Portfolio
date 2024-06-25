@@ -1,11 +1,12 @@
 ---
-import { skills } from '@cv'
+import i18next, { t } from "i18next";
+var result = t("skills.skills", { returnObjects: true});
 ---
 
 <section class = 'section'>
-    <h1 class = 'title'>Skills</h1>
+    <h1 class = 'title'>{t("skills.title")}</h1>
     <ul class = 'ul'>
-        {skills.map(({name, level, summary, keywords,}) => {
+        {result.map(({name, level, summary, keywords,}) => {
             return(
                 <li class = 'li'>
                     <div class = 'info'>

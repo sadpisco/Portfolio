@@ -130,8 +130,10 @@
         "url": "https://cert.efset.org/aKF8Nu"
       }
 ],
-    "skills": [{
-      "name": "Desarrollador Full Stack",
+    "skills": {
+      "title": "Habilidades Profesionales",
+      "skills": [{
+      "name": "Desarrollador Web Full Stack",
       "level": "Junior",
       "summary":"Capaz de diseñar, planificar y desarrollar aplicaciones web eficientes, responsivas y con una interfaz UX/UI impecable, que soporte procesos de negocio.",
       "keywords": [
@@ -166,7 +168,7 @@
             "Diagramador de procesos Bizagi",
             "Data Entry"
         ]
-      }],
+      }]},
     "languages": [{
       "language": "Inglés",
       "fluency": "Proficient C2",

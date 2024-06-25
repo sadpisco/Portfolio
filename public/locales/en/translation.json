@@ -130,7 +130,9 @@
         "url": "https://cert.efset.org/aKF8Nu"
       }
 ],
-    "skills": [{
+    "skills": {
+      "title": "Skills",
+      "skills": [{
       "name": "FullStack Web Developer",
       "level": "Junior",
       "summary":"Capable of designing, planning and developing web applications that are fast, responsive and with adaptable UX/UI oriented an easy to use customer point of view.",
@@ -165,7 +167,8 @@
             "Recruiting Procesess",
             "Data Entry"
         ]
-      }],
+      }]
+    },
     "languages": [{
       "language": "English",
       "fluency": "Proficient C2",

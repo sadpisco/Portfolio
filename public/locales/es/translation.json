@@ -8,13 +8,17 @@
       "email": "leo99153@gmail.com",
       "phone": "+51954163059",
       "url": "https://www.linkedin.com/in/leonardo-risco/",
-      "summary": "Soy Desarrollador Web Full Stack de Henry BootCamps y Bachiller en Ingeniería Empresarial de la Universidad Privada del Norte del Perú (UPN). Tengo experiencia desarrollando BackEnds y FrontEnds seguros y escalables. Tengo un conocimiento alto de frameworks como React, Next, Angular, Express y Nest.js . Poseo varios proyectos personals en portfolio donde demuestro mis habilidades como programador y diseñador de aplicaciones Web. Actualmente me desenvuelvo como Freelancer prestando servicios de desarrollo Web a empresas locales, mi último proyecto fue EcowashWeb, una página estática para un negocio local de lavado de autos. Siempre estoy codeando y commiteando a mi GitHub.",
       "location": {
         "address": "Victor Larco Herrera",
         "postalCode": "13009",
         "city": "Trujillo",
         "countryCode": "PE",
         "region": "La Libertad"
+      }
+    },
+      "about":{
+        "title": "Experiencia en tecnología",
+        "summary": "Soy Desarrollador Web Full Stack de Henry BootCamps y Bachiller en Ingeniería Empresarial de la Universidad Privada del Norte del Perú (UPN). Tengo experiencia desarrollando BackEnds y FrontEnds seguros y escalables. Tengo un conocimiento alto de frameworks como React, Next, Angular, Express y Nest.js . Poseo varios proyectos personals en portfolio donde demuestro mis habilidades como programador y diseñador de aplicaciones Web. Actualmente me desenvuelvo como Freelancer prestando servicios de desarrollo Web a empresas locales, mi último proyecto fue EcowashWeb, una página estática para un negocio local de lavado de autos. Siempre estoy codeando y commiteando a mi GitHub."
       },
       "profiles": [{
         "network": "LinkedIn",
@@ -31,8 +35,7 @@
         "username": "Leonardo Risco",
         "url": "https://www.instagram.com/sadpisco/"
       }
-    ]
-    },
+    ],
     "work": [
       {
         "name": "Freelancer",

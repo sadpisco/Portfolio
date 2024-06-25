@@ -36,7 +36,9 @@
         "url": "https://www.instagram.com/sadpisco/"
       }
     ],
-    "work": [
+    "experience": {
+      "title" : "Experiencia Laboral",
+      "experience": [
       {
         "name": "Freelancer",
         "position": "Desarrollo Web",
@@ -69,8 +71,10 @@
         "summary": "Gestión de insumos, preparaciones de comida rápida, labores FIFO, labores de preparación y distribución de productos alimenticios para el estadio TD Garden.",
         "location": "Boston, MA, USA"
       }
-],
-    "education": [{
+]},
+    "education": {
+      "title": "Educación",
+      "education": [{
       "institution": "Henry Bootcamps",
       "area": "Ingeniería de Software",
       "title": "Desarrollador FullStack",
@@ -110,8 +114,10 @@
           "Gestión Comercial",        
           "Data Entry"
         ]
-      }],
-    "certificates": [{
+      }]},
+    "certificates": {
+      "title" : "Certificates",
+      "certificates": [{
       "name": "Desarrollador Full Stack",
       "date": "2024-02-15",
       "issuer": "Henry Bootcamp",
@@ -129,7 +135,7 @@
         "issuer": "Education First",
         "url": "https://cert.efset.org/aKF8Nu"
       }
-],
+]},
     "skills": {
       "title": "Habilidades Profesionales",
       "skills": [{
@@ -184,7 +190,9 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [
+    "projects": {
+      "title": "Mis Proyectos",
+      "projects": [
       {
         "name": "Ecowash",
         "startDate": "2024/05/04",
@@ -200,7 +208,7 @@
       "name": "TechZone",
       "startDate": "2024/02/04",
       "endDate": "Actualidad",
-      "description": "Tienda Virtual: Nest, TypeORM y MySQL RestAPi, JWT Auth (BackEnd), Front con React Next.JS TypeScript, TailwindCSS, Paypal, Redux, Bootstrap, TailwindCSS y MUI.",
+      "description": "Tienda Virtual construida en  Nest, TypeORM y MySQL RestAPi, JWT Auth (BackEnd), Front con React Next.JS TypeScript, TailwindCSS, Paypal, Redux, Bootstrap, TailwindCSS y MUI.",
       "image": "https://res.cloudinary.com/ductjwavg/image/upload/v1714984028/105shots_so_ngx9qw.png",
       "status":"En desarrollo",
       "url": "https://project.com/",
@@ -210,7 +218,7 @@
       "name": "Matching",
       "startDate": "2019/01/01",
       "endDate": "2021/01/01",
-      "description": "Red Social Deportiva: Express RestAPI, PostgreSQL y Sequelize, FirebaseAuth y MercadoPago integrados. Front con React.js, Redux, Material UI, Bootstrap, TailwindCSS. Responsiva y consumiendo microservicios de localización, así como cookies. Gestión de usuario mediante JWT Auth y local storage.",
+      "description": "Red Social Deportiva construida en Express RestAPI, PostgreSQL y Sequelize, FirebaseAuth y MercadoPago integrados. Front con React.js, Redux, Material UI, Bootstrap, TailwindCSS. Responsiva y consumiendo microservicios de localización, así como cookies. Gestión de usuario mediante JWT Auth y local storage.",
       "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554819/logoPrincipal_k03wos-Banner_wide_bnj0jg.png",
       "status":"Terminado",
       "url": "https://project.com/",
@@ -238,3 +246,4 @@
     }
   ]
   }
+}

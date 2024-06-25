@@ -1,13 +1,15 @@
 ---
 import { projects } from "@cv";
 import GitHub from "../icons/GitHub.astro";
+import i18next, { t } from "i18next";
+var proyectos = t("projects.projects", { returnObjects: true});
 ---
 
 <section class="section">
-    <h1 class="title">Projects built by myself</h1>
+    <h1 class="title">{t("projects.title")}</h1>
     <ul class="ul">
         {
-            projects?.map(
+            proyectos?.map(
                 ({
                     name,
                     startDate,

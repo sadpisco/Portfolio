@@ -1,10 +1,12 @@
 ---
 import { work } from '@cv';
+import i18next, { t } from "i18next";
+const experiencias = t("experience.experience", { returnObjects: true });
 ---
 <section class = 'section'>
-    <h1 class = 'title'>Experience</h1>
+    <h1 class = 'title'>{t("experience.title")}</h1>
     <ul>
-        {work.map(({name, position, startDate, endDate, summary, location}) =>{
+        {experiencias?.map(({name, position, startDate, endDate, summary, location}) =>{
             return(
                 <li class = 'li'>
                     <div class = 'header'>

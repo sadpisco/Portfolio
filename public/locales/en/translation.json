@@ -37,7 +37,9 @@
         "url": "https://www.instagram.com/sadpisco/"
       }
     ],
-    "work": [
+    "experience": {
+      "title": "Experience",
+      "experience": [
       {
         "name": "Freelancer",
         "position": "Web development",
@@ -70,8 +72,10 @@
         "summary": "Management and preparation of kitchen supplies to supply different points of sale within the TD Garden stadium (Boston Celtics and Boston Bruins).",
         "location": "Boston, MA, USA"
       }
-],
-    "education": [{
+]},
+    "education": {
+      "title": "Education",
+      "education": [{
       "institution": "Henry FullStack Bootcamp",
       "area": "Software Development",
       "title": "FullStack Developer",
@@ -110,8 +114,10 @@
           "Customer Relationship Management",
           "Data Entry"
         ]
-      }],
-    "certificates": [{
+      }]},
+    "certificates": {
+      "title": "Certificados",
+      "certificates" :[{
       "name": "FullStack Web Developer",
       "date": "2024-02-15",
       "issuer": "Henry Bootcamp",
@@ -129,7 +135,7 @@
         "issuer": "Education First",
         "url": "https://cert.efset.org/aKF8Nu"
       }
-],
+]},
     "skills": {
       "title": "Skills",
       "skills": [{
@@ -184,7 +190,9 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [
+    "projects": {
+      "title": "Projects built by myself",
+      "projects":[
       {
         "name": "Ecowash",
         "startDate": "2024/05/04",
@@ -243,4 +251,5 @@
     }
     
   ]
+}
 }

@@ -5,9 +5,9 @@ const { languagge } = Astro.props;
 
 const buttonTitle = () => {
     if (languagge == "en"){
-        return "Traducir al Español"
+        return "Traducir"
     } else if ( languagge == "es"){
-        return "Translate to English"
+        return "Translate"
     }
 }
 const resultado = () => {
@@ -36,37 +36,39 @@ const resultado = () => {
     }
     }
 }
+
 ---
 <div class = "switchLanguageContainer">
         <a class = "switchLanguageAnchor" href = {resultado()}>
         {buttonTitle()}
         </a>
-
 </div>
 <style>
     .switchLanguageContainer{
-        background-color: rgb(95, 95, 95);
-        padding: 1vh;
-        margin: 1.5vh;
+        background-color: rgb(232, 232, 232);
+        
+        margin: 1vh;
         cursor: pointer;
-        border-radius: 0.1rem;
+        border-radius: 5px;
         border-color: none;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .switchLanguageAnchor{
-        color: rgb(220, 220, 220);
+        color: rgb(23, 23, 23);
         font-size: 13px;
+        font-weight: 500;
+        height: 100%;
+        width: 100%;
+        padding: 1.2vh;
+        border-radius: 5px;
     }
-    .switchLanguageContainer:hover{
-        box-shadow: 0px 0px 10px 1px black;
-        transition: 0.5s;
-
-        .switchLanguageAnchor{
-            color: white
-            transition: 0.5s;
-        }
+    .switchLanguageAnchor:hover{
+        transition: 0.2s;
+        background-color: rgb(47, 47, 47);
+        color:white;
 
     }
+
 </style>

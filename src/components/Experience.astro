@@ -11,7 +11,7 @@ const experiencias = t("experience.experience", { returnObjects: true });
                 <li class = 'li'>
                     <div class = 'header'>
                         <h4 class = 'name'>{position} - {name}</h4>
-                        <p>{startDate} - {endDate}</p>
+                        <p class = 'date'>{startDate} - {endDate}</p>
                     </div>
                     <p class = 'location'>{location}</p>
                     <p>{summary}</p>
@@ -40,6 +40,11 @@ const experiencias = t("experience.experience", { returnObjects: true });
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
+    }
+    .date{
+        text-align: right;
+        max-width: 200px;
     }
     .li{
         margin-top: 2vh;

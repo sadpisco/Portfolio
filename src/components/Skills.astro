@@ -41,22 +41,23 @@ var result = t("skills.skills", { returnObjects: true});
     .ul{
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 10px;
+        justify-content: space-between;
+        gap: 0px;
         width: 100%;
         padding: 1vh 0vh 0vh 0vh
     }
     
     .li{
-        width: 48%;
-        height: 100%;
-        border-radius: 5px;
+        width: 49%;
+        height: 210px;
+        border-radius: 4px;
         background-color: rgba(234, 234, 234, 0.79);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 2vh;
+        box-shadow: 0px 0px 5px rgb(188, 188, 188);
     }
     @media print{
     .li{
@@ -108,10 +109,11 @@ var result = t("skills.skills", { returnObjects: true});
     .summary{
         text-align: justify;
         margin-bottom: 2vh;
+        font-size: 12px;
     }
     .name{
         font-size: 17px;
-        font-weight: 500;
+        font-weight: 700;
     }
     .level{
         font-size: 14px;

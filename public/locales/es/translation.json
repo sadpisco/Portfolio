@@ -219,7 +219,7 @@
       "startDate": "2019/01/01",
       "endDate": "2021/01/01",
       "description": "Red Social Deportiva construida en Express RestAPI, PostgreSQL y Sequelize, FirebaseAuth y MercadoPago integrados. Front con React.js, Redux, Material UI, Bootstrap, TailwindCSS. Responsiva y consumiendo microservicios de localización, así como cookies. Gestión de usuario mediante JWT Auth y local storage.",
-      "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1709554819/logoPrincipal_k03wos-Banner_wide_bnj0jg.png",
+      "image": "https://res.cloudinary.com/dphpu225t/image/upload/v1719439335/846_1x_shots_so_ekrweh.png",
       "status":"Terminado",
       "url": "https://project.com/",
       "gitHub": "https://github.com/MatchingProyect/Matching-Front"
